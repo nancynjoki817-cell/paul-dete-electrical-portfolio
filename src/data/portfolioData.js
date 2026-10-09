@@ -4,7 +4,7 @@ export const personalInfo = {
   subtitle: "POWERING SAFE & SMART SOLUTIONS",
   headlineMain: "I’m an Electrical Engineer building reliable and efficient systems.",
   bio: "Paul Dete is a highly skilled and experienced Electrical Engineer with a passion for delivering safe, reliable, and energy-efficient electrical solutions. With extensive experience across residential, commercial, and industrial electrical projects, he specializes in power wiring, lighting design, solar PV energy systems, circuit protection, and high-precision fault diagnosis.",
-  detailedAbout: "Whether upgrading complex electrical distribution panels, installing off-grid solar solutions, or diagnosing hidden wiring faults, Paul delivers dependable, code-compliant engineering services. Known for meticulous attention to detail, proactive problem-solving, and strict safety procedures, he combines technical expertise with practical innovations to save energy and optimize electrical infrastructure.",
+  detailedAbout: "Whether upgrading complex electrical distribution panels, installing off-grid solar solutions, or wiring luxury interior lighting and high-power appliances, Paul delivers dependable, code-compliant engineering services. Known for meticulous attention to detail, proactive problem-solving, and strict safety procedures, he combines technical expertise with practical innovations to save energy and optimize electrical infrastructure.",
   phone: "+254700774437",
   email: "detepaul23@gmail.com",
   location: "Nairobi, Kenya",
@@ -44,22 +44,22 @@ export const services = [
     id: "residential",
     icon: "Home",
     title: "Residential Electrical Installation",
-    description: "Complete house wiring, socket and switch installations, architectural villa lighting, and circuit breaker panel setups for modern homes.",
-    features: ["Whole-house wiring", "Architectural LED illumination", "Breaker box upgrades"]
+    description: "Complete house wiring, socket and switch installations, architectural villa lighting, linear gypsum LEDs, and circuit breaker panel setups.",
+    features: ["Whole-house wiring", "Gypsum linear LED lighting", "Breaker box upgrades"]
   },
   {
     id: "commercial",
     icon: "Building2",
-    title: "Commercial Electrical Systems",
-    description: "Scalable power distribution systems, high-efficiency commercial LED retrofits, emergency power setups, and office wiring.",
-    features: ["3-Phase power setups", "Commercial lighting", "Emergency backup"]
+    title: "Commercial & Interior Lighting Systems",
+    description: "Scalable power distribution systems, high-efficiency commercial LED retrofits, TV unit backlighting, emergency power setups, and office wiring.",
+    features: ["TV wall unit LED backlighting", "3-Phase power setups", "Commercial lighting"]
   },
   {
     id: "industrial",
     icon: "Factory",
-    title: "Industrial Electrical Maintenance",
-    description: "Heavy machinery power wiring, motor controls, water pump float switch automation, and distribution panel maintenance.",
-    features: ["Pump float switch controls", "Preventative maintenance", "Heavy equipment wiring"]
+    title: "Industrial & Appliance Power Wiring",
+    description: "Heavy machinery power wiring, kitchen cooker hood isolators, built-in digital oven circuits, water pump float switch automation, and panel maintenance.",
+    features: ["Kitchen high-power appliance wiring", "Pump float switch controls", "Heavy equipment wiring"]
   },
   {
     id: "troubleshooting",
@@ -97,14 +97,14 @@ export const skillCategories = [
     skills: [
       { name: "Electrical Installation", level: 95, icon: "Wrench" },
       { name: "Electrical Troubleshooting", level: 98, icon: "Search" },
-      { name: "Electrical Maintenance", level: 92, icon: "Settings" },
+      { name: "High-Power Kitchen Appliance Wiring", level: 96, icon: "Settings" },
       { name: "Circuit Breakers & Protection", level: 94, icon: "Shield" }
     ]
   },
   {
     category: "Design & Engineering",
     skills: [
-      { name: "Electrical Circuit Design", level: 90, icon: "FileText" },
+      { name: "Gypsum Ceiling & TV Unit LED Lighting", level: 97, icon: "FileText" },
       { name: "Power Distribution Systems", level: 92, icon: "Grid" },
       { name: "Water Pump Automation & Float Switches", level: 95, icon: "Cpu" },
       { name: "Electrical Equipment Testing", level: 95, icon: "CheckCircle" }
@@ -116,7 +116,7 @@ export const skillCategories = [
       { name: "Electrical Safety Procedures", level: 99, icon: "ShieldCheck" },
       { name: "Solar Energy & PV Systems", level: 94, icon: "Sun" },
       { name: "Digital Surge & Voltage Protectors", level: 96, icon: "Anchor" },
-      { name: "Architectural Exterior Lighting", level: 93, icon: "Camera" }
+      { name: "Smart Touch Backlit Mirrors & Sconces", level: 95, icon: "Camera" }
     ]
   }
 ];
@@ -124,6 +124,50 @@ export const skillCategories = [
 export const projects = [
   {
     id: 1,
+    title: "Gypsum Ceiling Concealed Linear LED Strips & Chandelier",
+    category: "Residential",
+    image: "/images/gypsum-ceiling-linear-led-chandelier.jpg",
+    description: "Designed and installed dual linear LED strip light channels concealed within gypsum ceiling cornices, paired with designer wall sconces and a central multi-tier crystal chandelier.",
+    technologies: ["Linear Profile LEDs", "Gypsum Channel Wiring", "Modern Multi-Tier Chandelier", "Designer Wall Sconces"],
+    client: "Luxury Residence",
+    year: "2026",
+    details: "Delivered ultra-modern indirect ambient illumination for an open-plan living room with individual zone switching controls."
+  },
+  {
+    id: 2,
+    title: "Smart Touch Halo Backlit Vanity Mirror & Sconce Installation",
+    category: "Residential",
+    image: "/images/smart-backlit-vanity-mirror.jpg",
+    description: "Fitted a high-end round smart touch-activated halo LED vanity mirror with perimeter warm lighting and crystal wall sconces (installed personally by Engineer Paul Dete in safety overalls).",
+    technologies: ["Smart Touch Mirror", "Perimeter Halo LED", "Crystal Sconce Light", "Concealed Conduit Feed"],
+    client: "Private Client",
+    year: "2026",
+    details: "Provides shadow-free task illumination for luxury bathroom & vanity spaces with touch sensor dimming."
+  },
+  {
+    id: 3,
+    title: "Custom Wood & Marble TV Wall Unit Backlit LED Spotlights",
+    category: "Commercial",
+    image: "/images/tv-wall-unit-led-lighting.jpg",
+    description: "Integrated indirect COB LED light strips behind marble paneling and fitted recessed warm spotlights into custom fluted wood shelving.",
+    technologies: ["COB LED Backlighting", "Recessed Ceiling Spotlights", "Wood Cabinetry Channel Wiring"],
+    client: "Interior Design Suite",
+    year: "2026",
+    details: "Enhanced architectural interior aesthetics with low-voltage warm LED backlighting and hidden driver transformers."
+  },
+  {
+    id: 4,
+    title: "Built-In Kitchen Suite: Cooker Hood, Electric Hob & Digital Oven Wiring",
+    category: "Residential",
+    image: "/images/kitchen-cooker-hood-extractor.jpg",
+    description: "Installed heavy-duty dedicated high-amperage lines, cooker isolator switches, and power supplies for a glass gas/electric hob, touch extractor range hood, and digital oven.",
+    technologies: ["High-Amperage Cooker Switch", "Touch Extractor Range Hood", "Glass Hob & Digital Oven", "Dedicated Heavy Cable"],
+    client: "Modern Kitchen Renovation",
+    year: "2026",
+    details: "Ensured safe isolated power delivery for high-demand kitchen cooking appliances adhering strictly to load calculations."
+  },
+  {
+    id: 5,
     title: "Luxury Mansion Exterior Architectural Illumination",
     category: "Residential",
     image: "/images/luxury-villa-exterior-lighting.jpg",
@@ -134,7 +178,7 @@ export const projects = [
     details: "Created a stunning nighttime visual identity while ensuring energy-efficient LED consumption and IP66 weatherproof exterior conduit routing."
   },
   {
-    id: 2,
+    id: 6,
     title: "Digital Over/Under Voltage Protector & Keypad Meter Box Setup",
     category: "Industrial",
     image: "/images/meter-box-digital-protector.jpg",
@@ -145,7 +189,7 @@ export const projects = [
     details: "Protects sensitive appliances and commercial devices against sudden utility grid voltage spikes, brownouts, and phase imbalance."
   },
   {
-    id: 3,
+    id: 7,
     title: "Automatic Overhead Water Tank Float Switch Automation",
     category: "Troubleshooting",
     image: "/images/water-float-switch-sensor.jpg",
@@ -156,18 +200,7 @@ export const projects = [
     details: "Automates the filling cycle of high-capacity water tanks with heavy-duty rubber-coated submersible wiring."
   },
   {
-    id: 4,
-    title: "Commercial LED & Panel Modernization",
-    category: "Commercial",
-    image: "/images/lighiting-7.jpeg.jpeg",
-    description: "Transformed an outdated office space with high-efficiency energy-saving LED lighting panels and dual-tariffs sub-metering.",
-    technologies: ["3-Phase Panel Board", "Energy-saving LEDs", "Digital Power Meters"],
-    client: "Nairobi Commercial Plaza",
-    year: "2025",
-    details: "Reduced energy overheads by 35% through precision load distribution and installation of commercial motion-activated LED fixtures."
-  },
-  {
-    id: 5,
+    id: 8,
     title: "Hybrid Solar Power & Battery Storage System",
     category: "Solar",
     image: "/images/meter-1.jpg.jpeg",
@@ -176,33 +209,22 @@ export const projects = [
     client: "Residential Estate",
     year: "2025",
     details: "Provides 100% uninterrupted electricity for essential home circuits during utility outages with zero manual intervention required."
-  },
-  {
-    id: 6,
-    title: "Conduit Piping & Slab Wiring Route Network",
-    category: "Residential",
-    image: "/images/piping-1.jpeg.jpeg",
-    description: "Executed complete full-house electrical conduit piping, cable routing, main consumer unit setup, and decorative LED ambient lighting.",
-    technologies: ["Sub-distribution Panel", "PVC Conduit Piping", "LED Smart Switches", "Ground Bonding"],
-    client: "Private Homeowner",
-    year: "2025",
-    details: "Designed and installed a complete safe electrical grid for a modern 3-bedroom villa including dedicated power lines for high-load appliances."
   }
 ];
 
 export const galleryItems = [
-  { id: 1, src: "/images/luxury-villa-exterior-lighting.jpg", title: "Luxury Villa Facade & Architectural Lighting", category: "Lighting & Facades", isNew: true },
-  { id: 2, src: "/images/meter-box-digital-protector.jpg", title: "Keypad Energy Meter & Digital Voltage Protector Box", category: "Panels & Meters", isNew: true },
-  { id: 3, src: "/images/water-float-switch-sensor.jpg", title: "Overhead Tank Automatic Float Switch Wiring", category: "Automation & Controls", isNew: true },
-  { id: 4, src: "/images/water-float-switch-1.jpg", title: "Water Level Sensor Cable Routing", category: "Automation & Controls", isNew: true },
-  { id: 5, src: "/images/piping-1.jpeg.jpeg", title: "Conduit Piping Route", category: "Piping & Wiring" },
-  { id: 6, src: "/images/lighiting-7.jpeg.jpeg", title: "Commercial LED Ceiling Grid", category: "Lighting & Facades" },
-  { id: 7, src: "/images/meter-1.jpg.jpeg", title: "Digital Meter & Breaker Board", category: "Panels & Meters" },
-  { id: 8, src: "/images/piping-2.jpeg.jpeg", title: "Wall Channel Piping Installation", category: "Piping & Wiring" },
-  { id: 9, src: "/images/lighiting-4.jpeg.jpeg", title: "Architectural Recessed Lighting", category: "Lighting & Facades" },
-  { id: 10, src: "/images/meter-2.jpg.jpeg", title: "Utility Energy Meter Box", category: "Panels & Meters" },
-  { id: 11, src: "/images/wiring-1.jpeg.jpeg", title: "Control Panel Internal Wiring", category: "Piping & Wiring" },
-  { id: 12, src: "/images/lighiting-6.jpeg.jpeg", title: "Warm Ambient Living Room Lights", category: "Lighting & Facades" }
+  { id: 1, src: "/images/gypsum-ceiling-linear-led-chandelier.jpg", title: "Gypsum Linear Ceiling LEDs & Chandelier", category: "Lighting & Facades", isNew: true },
+  { id: 2, src: "/images/smart-backlit-vanity-mirror.jpg", title: "Smart Touch Backlit Halo Mirror & Sconces", category: "Lighting & Facades", isNew: true },
+  { id: 3, src: "/images/tv-wall-unit-led-lighting.jpg", title: "Custom TV Wall Unit Backlit LEDs & Spotlights", category: "Lighting & Facades", isNew: true },
+  { id: 4, src: "/images/kitchen-cooker-hood-extractor.jpg", title: "Touch Range Extractor Hood & Oven Wiring", category: "Appliances & Panels", isNew: true },
+  { id: 5, src: "/images/built-in-kitchen-hob-oven.jpg", title: "Built-In Glass Cooktop Hob & Digital Oven Wiring", category: "Appliances & Panels", isNew: true },
+  { id: 6, src: "/images/luxury-villa-exterior-lighting.jpg", title: "Luxury Villa Facade & Architectural Lighting", category: "Lighting & Facades", isNew: true },
+  { id: 7, src: "/images/meter-box-digital-protector.jpg", title: "Keypad Energy Meter & Digital Voltage Protector Box", category: "Panels & Meters", isNew: true },
+  { id: 8, src: "/images/water-float-switch-sensor.jpg", title: "Overhead Tank Automatic Float Switch Wiring", category: "Automation & Controls", isNew: true },
+  { id: 9, src: "/images/piping-1.jpeg.jpeg", title: "Conduit Piping Route", category: "Piping & Wiring" },
+  { id: 10, src: "/images/lighiting-7.jpeg.jpeg", title: "Commercial LED Ceiling Grid", category: "Lighting & Facades" },
+  { id: 11, src: "/images/meter-1.jpg.jpeg", title: "Digital Meter & Breaker Board", category: "Panels & Meters" },
+  { id: 12, src: "/images/wiring-1.jpeg.jpeg", title: "Control Panel Internal Wiring", category: "Piping & Wiring" }
 ];
 
 export const siteVideos = [
@@ -226,7 +248,7 @@ export const siteVideos = [
 
 export const testimonials = [
   {
-    quote: "Paul Dete did an excellent job rewiring our house and setting up our luxury exterior lighting. Very professional, punctual, and reliable!",
+    quote: "Paul Dete did an extraordinary job installing our gypsum linear ceiling LEDs, chandelier, and modern kitchen suite appliances. Extremely skilled engineer!",
     author: "Dancan D.",
     role: "Homeowner",
     rating: 5
@@ -238,7 +260,7 @@ export const testimonials = [
     rating: 5
   },
   {
-    quote: "Installed an automatic water tank float switch and a solar inverter system at my home. Everything works automatically and safely. Great peace of mind!",
+    quote: "Installed an automatic water tank float switch and a smart touch backlit vanity mirror at my home. Everything works automatically and safely!",
     author: "Mitchell Atieno",
     role: "Residential Client",
     rating: 5
@@ -266,29 +288,29 @@ export const testimonials = [
 export const blogPosts = [
   {
     id: 1,
-    title: "How Automatic Float Switches Protect Water Pumps & Save Electricity",
-    excerpt: "Learn how installing a water level sensor switch automated pump operations, prevents dry running, and stops wasteful water tank overflows.",
+    title: "Designing Gypsum Linear LED Lighting & Smart Backlit Mirrors",
+    excerpt: "Discover how concealed ceiling LED profile channels, decorative chandeliers, and halo backlit vanity mirrors elevate interior architecture.",
     date: "October 2026",
-    readTime: "4 min read",
-    category: "Automation & Control",
-    image: "/images/water-float-switch-sensor.jpg"
+    readTime: "5 min read",
+    category: "Interior Lighting",
+    image: "/images/gypsum-ceiling-linear-led-chandelier.jpg"
   },
   {
     id: 2,
-    title: "Why You Need a Digital Voltage Protector For Your Appliances",
-    excerpt: "Grid voltage surges and low-voltage brownouts can destroy sensitive equipment. Discover how digital voltage protectors safeguard your electrical investment.",
+    title: "Safe Electrical Wiring For Kitchen Cooker Hoods & Digital Ovens",
+    excerpt: "High-power kitchen appliances demand dedicated high-amperage cables, proper isolator switches, and load distribution to avoid overload trips.",
     date: "September 2026",
-    readTime: "5 min read",
-    category: "Electrical Safety",
-    image: "/images/meter-box-digital-protector.jpg"
+    readTime: "4 min read",
+    category: "Appliance Wiring",
+    image: "/images/kitchen-cooker-hood-extractor.jpg"
   },
   {
     id: 3,
-    title: "Architectural Exterior Lighting: Transforming Villa Facades at Night",
-    excerpt: "Explore best practices for designing IP66 weatherproof outdoor LED sconces, pillar uplighting, and automated dusk-to-dawn twilight controls.",
+    title: "How Automatic Float Switches Protect Water Pumps & Save Electricity",
+    excerpt: "Learn how installing a water level sensor switch automated pump operations, prevents dry running, and stops wasteful water tank overflows.",
     date: "August 2026",
-    readTime: "6 min read",
-    category: "Lighting Design",
-    image: "/images/luxury-villa-exterior-lighting.jpg"
+    readTime: "4 min read",
+    category: "Automation & Control",
+    image: "/images/water-float-switch-sensor.jpg"
   }
 ];
