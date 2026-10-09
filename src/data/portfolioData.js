@@ -292,8 +292,33 @@ export const blogPosts = [
     excerpt: "Discover how concealed ceiling LED profile channels, decorative chandeliers, and halo backlit vanity mirrors elevate interior architecture.",
     date: "October 2026",
     readTime: "5 min read",
+    author: "Eng. Paul Dete",
     category: "Interior Lighting",
-    image: "/images/gypsum-ceiling-linear-led-chandelier.jpg"
+    image: "/images/gypsum-ceiling-linear-led-chandelier.jpg",
+    sections: [
+      {
+        heading: "1. Introduction to Architectural Interior Lighting",
+        body: "Modern interior design relies heavily on layer-based lighting design to transform standard residential rooms into luxurious, relaxing spaces. By combining ambient cove lighting, directional spotlights, and smart halo-backlit vanity mirrors, homeowners enjoy both functional task illumination and sophisticated visual elegance."
+      },
+      {
+        heading: "2. Concealed Gypsum Linear LED Profile Channels",
+        body: "Installing linear LED strip lights within gypsum ceiling cornices requires precision aluminum extrusions with opal diffusers. Using 24V DC Chip-on-Board (COB) LED strips ensures continuous, dotless light output. Proper thermal heat-sink aluminum channels prevent diode degradation and extend LED lifespan beyond 50,000 operational hours."
+      },
+      {
+        heading: "3. Smart Touch Halo Backlit Vanity Mirrors",
+        body: "Smart touch mirrors feature perimeter COB LED strips mounted behind frosted glass edges. When wiring vanity mirrors in bathrooms (Zone 2 wet areas), electrical regulations require IP44 or IP65 waterproof rated 12V/24V power supplies connected to a dedicated RCD-protected sub-circuit."
+      },
+      {
+        heading: "4. Driver Transformer Calculations & Voltage Drop",
+        body: "Always calculate transformer load with a minimum 20% safety headroom. For example, if a 5-meter LED strip consumes 14.4W per meter (72W total), select a 100W IP67 rated electronic LED driver to avoid transformer overheating and flickering."
+      }
+    ],
+    keyTakeaways: [
+      "Use 24V DC COB LED strips for continuous, dotless illumination without visible hotspot dots.",
+      "Mount LED strips inside aluminum channels to dissipate heat and double LED lifespan.",
+      "Ensure all bathroom mirror power drivers carry IP44/IP65 ingress protection ratings.",
+      "Incorporate 20% wattage safety margin on all low-voltage electronic LED transformers."
+    ]
   },
   {
     id: 2,
@@ -301,8 +326,33 @@ export const blogPosts = [
     excerpt: "High-power kitchen appliances demand dedicated high-amperage cables, proper isolator switches, and load distribution to avoid overload trips.",
     date: "September 2026",
     readTime: "4 min read",
+    author: "Eng. Paul Dete",
     category: "Appliance Wiring",
-    image: "/images/kitchen-cooker-hood-extractor.jpg"
+    image: "/images/kitchen-cooker-hood-extractor.jpg",
+    sections: [
+      {
+        heading: "1. Understanding High-Load Kitchen Electrical Demand",
+        body: "Modern kitchens feature multiple high-wattage electrical appliances including glass induction hobs (6kW–7.2kW), built-in digital ovens (3kW–4.5kW), and touch-screen extractor range hoods. Running all these devices on a standard 13A socket loop will cause rapid thermal overload and breaker tripping."
+      },
+      {
+        heading: "2. Cable Sizing for Built-In Electric Ovens & Hobs",
+        body: "High-demand cooking appliances require dedicated radial circuits directly from the main consumer distribution unit. Electric hobs must be wired with 6.0mm² twin & earth PVC cables protected by a 32A or 40A Type B Miniature Circuit Breaker (MCB)."
+      },
+      {
+        heading: "3. Double-Pole Cooker Isolator Switch Placement",
+        body: "Electrical safety regulations dictate that every electric hob or cooker must have a dedicated 45A double-pole isolator switch installed within 2 meters of the appliance, but not directly above the heat zone. This allows emergency power isolation in case of kitchen grease fires or electrical faults."
+      },
+      {
+        heading: "4. Extractor Range Hood & Socket Connection Safety",
+        body: "Touch-screen range hoods contain sensitive digital control boards and blower motors. Wiring extractor hoods to a fused spur switch (3A/5A fuse) prevents power surges from damaging microprocessors while ensuring easy maintenance access."
+      }
+    ],
+    keyTakeaways: [
+      "Never run high-load electric hobs or ovens on standard 13A ring main socket circuits.",
+      "Use dedicated 6.0mm² copper cabling protected by a 32A/40A MCB for electric cooktops.",
+      "Position double-pole 45A cooker switches within reach but away from direct stovetop heat.",
+      "Connect touch range hoods through fused connection units (FCU) for surge safety."
+    ]
   },
   {
     id: 3,
@@ -310,7 +360,32 @@ export const blogPosts = [
     excerpt: "Learn how installing a water level sensor switch automated pump operations, prevents dry running, and stops wasteful water tank overflows.",
     date: "August 2026",
     readTime: "4 min read",
+    author: "Eng. Paul Dete",
     category: "Automation & Control",
-    image: "/images/water-float-switch-sensor.jpg"
+    image: "/images/water-float-switch-sensor.jpg",
+    sections: [
+      {
+        heading: "1. The Cost of Water Tank Overflows & Dry-Run Motor Burnouts",
+        body: "Unattended electric water pumps frequently cause massive water wastage due to tank overflows, or suffer catastrophic motor winding burnout when running dry during municipal water outages. Automatic float switches provide a foolproof electromechanical solution."
+      },
+      {
+        heading: "2. Electromechanical Operation of Float Level Sensors",
+        body: "A float switch contains an internal steel ball bearing that rolls against a microswitch lever as water levels rise or fall. When the upper water tank reaches maximum capacity, the ball shifts to break the control circuit, automatically turning off the pump motor."
+      },
+      {
+        heading: "3. Wiring High & Low Level Dual Float Systems",
+        body: "A complete automatic pumping setup uses two float switches: one in the underground reservoir (to prevent dry running) and one in the overhead roof tank (to prevent overflow). Connecting both in series with a magnetic motor contactor ensures full automation."
+      },
+      {
+        heading: "4. Submersible Rubber Wiring & Waterproof Splicing",
+        body: "Because float switches operate inside humid or submerged water tanks, all cable joins must use IP68 resin-filled waterproof junction kits or dual-wall adhesive heat-shrink tubing to prevent earth leakage tripping."
+      }
+    ],
+    keyTakeaways: [
+      "Dual float switch systems automate water pumping while stopping tank overflows completely.",
+      "Ground reservoir float switches cut power immediately if water supply drops below safe pump levels.",
+      "Use magnetic motor starters/contactors to prevent heavy motor start currents from burning microswitches.",
+      "Seal all tank wire splices with marine-grade adhesive heat-shrink tubing for 100% moisture protection."
+    ]
   }
 ];
