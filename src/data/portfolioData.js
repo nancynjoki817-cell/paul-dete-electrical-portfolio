@@ -44,8 +44,8 @@ export const services = [
     id: "residential",
     icon: "Home",
     title: "Residential Electrical Installation",
-    description: "Complete house wiring, socket and switch installations, lighting layouts, and circuit breaker panel setups for modern homes.",
-    features: ["Whole-house wiring", "Breaker box upgrades", "Smart home prep"]
+    description: "Complete house wiring, socket and switch installations, architectural villa lighting, and circuit breaker panel setups for modern homes.",
+    features: ["Whole-house wiring", "Architectural LED illumination", "Breaker box upgrades"]
   },
   {
     id: "commercial",
@@ -58,15 +58,15 @@ export const services = [
     id: "industrial",
     icon: "Factory",
     title: "Industrial Electrical Maintenance",
-    description: "Heavy machinery power wiring, motor controls, electrical distribution panel maintenance, and preventative servicing.",
-    features: ["Motor controls", "Preventative maintenance", "Heavy equipment wiring"]
+    description: "Heavy machinery power wiring, motor controls, water pump float switch automation, and distribution panel maintenance.",
+    features: ["Pump float switch controls", "Preventative maintenance", "Heavy equipment wiring"]
   },
   {
     id: "troubleshooting",
     icon: "Activity",
     title: "Fault Diagnosis & Troubleshooting",
-    description: "Rapid, accurate isolation of electrical short circuits, voltage drops, breaker tripping, and wire degradation using digital instruments.",
-    features: ["Precision multimeter testing", "Short circuit tracing", "Thermal inspection"]
+    description: "Rapid, accurate isolation of electrical short circuits, digital voltage protector installation, breaker tripping, and wire degradation.",
+    features: ["Voltage surge protectors", "Short circuit tracing", "Thermal inspection"]
   },
   {
     id: "rewiring",
@@ -106,7 +106,7 @@ export const skillCategories = [
     skills: [
       { name: "Electrical Circuit Design", level: 90, icon: "FileText" },
       { name: "Power Distribution Systems", level: 92, icon: "Grid" },
-      { name: "Electrical Schematic Diagrams", level: 88, icon: "Layers" },
+      { name: "Water Pump Automation & Float Switches", level: 95, icon: "Cpu" },
       { name: "Electrical Equipment Testing", level: 95, icon: "CheckCircle" }
     ]
   },
@@ -115,8 +115,8 @@ export const skillCategories = [
     skills: [
       { name: "Electrical Safety Procedures", level: 99, icon: "ShieldCheck" },
       { name: "Solar Energy & PV Systems", level: 94, icon: "Sun" },
-      { name: "Earthing & Grounding Systems", level: 93, icon: "Anchor" },
-      { name: "CCTV & Security Wiring", level: 89, icon: "Camera" }
+      { name: "Digital Surge & Voltage Protectors", level: 96, icon: "Anchor" },
+      { name: "Architectural Exterior Lighting", level: 93, icon: "Camera" }
     ]
   }
 ];
@@ -124,17 +124,39 @@ export const skillCategories = [
 export const projects = [
   {
     id: 1,
-    title: "Residential 3-Bedroom Villa Wiring",
+    title: "Luxury Mansion Exterior Architectural Illumination",
     category: "Residential",
-    image: "/images/piping-1.jpeg.jpeg",
-    description: "Executed complete full-house electrical conduit piping, cable routing, main consumer unit setup, and decorative LED ambient lighting.",
-    technologies: ["Sub-distribution Panel", "PVC Conduit Piping", "LED Smart Switches", "Ground Bonding"],
-    client: "Private Homeowner",
+    image: "/images/luxury-villa-exterior-lighting.jpg",
+    description: "Designed and engineered the complete exterior facade lighting scheme for a multi-story luxury villa, featuring warm LED accent sconces, pillar uplighting, balcony perimeters, and dusk-to-dawn sensors.",
+    technologies: ["Warm LED Sconces", "Pillar Uplights", "Architectural Facade Fixtures", "Automatic Twilight Sensors"],
+    client: "Private Residential Estate",
     year: "2026",
-    details: "Designed and installed a complete safe electrical grid for a modern 3-bedroom villa including dedicated power lines for high-load appliances."
+    details: "Created a stunning nighttime visual identity while ensuring energy-efficient LED consumption and IP66 weatherproof exterior conduit routing."
   },
   {
     id: 2,
+    title: "Digital Over/Under Voltage Protector & Keypad Meter Box Setup",
+    category: "Industrial",
+    image: "/images/meter-box-digital-protector.jpg",
+    description: "Installed a high-precision digital voltage protector displaying real-time line voltage (200V), integrated with a Hexing CIU EV100 keypad meter, sub-circuit MCBs, and heavy-duty phase distribution.",
+    technologies: ["Digital Voltage Protector", "Hexing CIU Keypad Meter", "Residual Circuit Breakers", "Wire Termination"],
+    client: "Commercial & Sub-distribution Utility",
+    year: "2026",
+    details: "Protects sensitive appliances and commercial devices against sudden utility grid voltage spikes, brownouts, and phase imbalance."
+  },
+  {
+    id: 3,
+    title: "Automatic Overhead Water Tank Float Switch Automation",
+    category: "Troubleshooting",
+    image: "/images/water-float-switch-sensor.jpg",
+    description: "Wired an automatic float switch sensor system for overhead water tank pump control, eliminating dry-run motor burnout and preventing tank overflows.",
+    technologies: ["Float Switch Sensor", "Submersible Cable", "Waterproof Junctions", "Pump Starter Relay"],
+    client: "Residential Complex",
+    year: "2026",
+    details: "Automates the filling cycle of high-capacity water tanks with heavy-duty rubber-coated submersible wiring."
+  },
+  {
+    id: 4,
     title: "Commercial LED & Panel Modernization",
     category: "Commercial",
     image: "/images/lighiting-7.jpeg.jpeg",
@@ -145,7 +167,7 @@ export const projects = [
     details: "Reduced energy overheads by 35% through precision load distribution and installation of commercial motion-activated LED fixtures."
   },
   {
-    id: 3,
+    id: 5,
     title: "Hybrid Solar Power & Battery Storage System",
     category: "Solar",
     image: "/images/meter-1.jpg.jpeg",
@@ -156,76 +178,73 @@ export const projects = [
     details: "Provides 100% uninterrupted electricity for essential home circuits during utility outages with zero manual intervention required."
   },
   {
-    id: 4,
-    title: "Industrial Main Distribution Board (MDB) Upgrade",
-    category: "Industrial",
-    image: "/images/meter-3.jpg.jpeg",
-    description: "Upgraded aging fuses with modern molded case circuit breakers (MCCB) and residual current circuit breakers (RCCB) for enhanced plant safety.",
-    technologies: ["MCCB Breakers", "RCCB Protection", "Copper Busbars", "Phase Indicators"],
-    client: "Manufacturing Facility",
-    year: "2025",
-    details: "Upgraded industrial control switches and introduced overload relays to prevent motor burnouts."
-  },
-  {
-    id: 5,
-    title: "Perimeter Security & CCTV Power Infrastructure",
-    category: "Commercial",
-    image: "/images/lighiting-4.jpeg.jpeg",
-    description: "Designed weather-resistant outdoor conduit wiring for high-output floodlights and security camera power supplies.",
-    technologies: ["Outdoor Floodlights", "Weatherproof Junction Boxes", "CCTV Power Supplies"],
-    client: "Gated Community",
-    year: "2024",
-    details: "Ensured uninterrupted outdoor illumination with automated twilight dusk-to-dawn sensors and armored cable runs."
-  },
-  {
     id: 6,
-    title: "Complex Electrical Fault Isolation & Earthing Test",
-    category: "Troubleshooting",
-    image: "/images/wiring-1.jpeg.jpeg",
-    description: "Isolated a dangerous hidden earth leakage fault causing frequent breaker tripping in a commercial complex.",
-    technologies: ["Multimeter Insulation Tester", "Earth Resistance Meter", "Circuit Tracer"],
-    client: "Retail Complex",
-    year: "2024",
-    details: "Restored full operational safety by re-bonding the primary earth electrode and replacing compromised subterranean cable feeds."
+    title: "Conduit Piping & Slab Wiring Route Network",
+    category: "Residential",
+    image: "/images/piping-1.jpeg.jpeg",
+    description: "Executed complete full-house electrical conduit piping, cable routing, main consumer unit setup, and decorative LED ambient lighting.",
+    technologies: ["Sub-distribution Panel", "PVC Conduit Piping", "LED Smart Switches", "Ground Bonding"],
+    client: "Private Homeowner",
+    year: "2025",
+    details: "Designed and installed a complete safe electrical grid for a modern 3-bedroom villa including dedicated power lines for high-load appliances."
   }
 ];
 
 export const galleryItems = [
-  { id: 1, src: "/images/piping-1.jpeg.jpeg", title: "Conduit Piping Route", category: "Piping & Wiring" },
-  { id: 2, src: "/images/lighiting-7.jpeg.jpeg", title: "Commercial LED Ceiling Grid", category: "Lighting" },
-  { id: 3, src: "/images/meter-1.jpg.jpeg", title: "Digital Meter & Breaker Board", category: "Panels & Meters" },
-  { id: 4, src: "/images/piping-2.jpeg.jpeg", title: "Wall Channel Piping Installation", category: "Piping & Wiring" },
-  { id: 5, src: "/images/lighiting-4.jpeg.jpeg", title: "Architectural Recessed Lighting", category: "Lighting" },
-  { id: 6, src: "/images/meter-2.jpg.jpeg", title: "Utility Energy Meter Box", category: "Panels & Meters" },
-  { id: 7, src: "/images/wiring-1.jpeg.jpeg", title: "Control Panel Internal Wiring", category: "Piping & Wiring" },
-  { id: 8, src: "/images/lighiting-6.jpeg.jpeg", title: "Warm Ambient Living Room Lights", category: "Lighting" },
-  { id: 9, src: "/images/meter-3.jpg.jpeg", title: "3-Phase Industrial Breaker Board", category: "Panels & Meters" },
-  { id: 10, src: "/images/piping-5.jpeg (2).jpeg", title: "Floor & Slab Piping Network", category: "Piping & Wiring" },
-  { id: 11, src: "/images/lighiting-5.jpeg.jpeg", title: "Feature Pendant Light Installation", category: "Lighting" },
-  { id: 12, src: "/images/piping-3.jpeg.jpeg", title: "Conduit Junction Boxes", category: "Piping & Wiring" }
+  { id: 1, src: "/images/luxury-villa-exterior-lighting.jpg", title: "Luxury Villa Facade & Architectural Lighting", category: "Lighting & Facades", isNew: true },
+  { id: 2, src: "/images/meter-box-digital-protector.jpg", title: "Keypad Energy Meter & Digital Voltage Protector Box", category: "Panels & Meters", isNew: true },
+  { id: 3, src: "/images/water-float-switch-sensor.jpg", title: "Overhead Tank Automatic Float Switch Wiring", category: "Automation & Controls", isNew: true },
+  { id: 4, src: "/images/water-float-switch-1.jpg", title: "Water Level Sensor Cable Routing", category: "Automation & Controls", isNew: true },
+  { id: 5, src: "/images/piping-1.jpeg.jpeg", title: "Conduit Piping Route", category: "Piping & Wiring" },
+  { id: 6, src: "/images/lighiting-7.jpeg.jpeg", title: "Commercial LED Ceiling Grid", category: "Lighting & Facades" },
+  { id: 7, src: "/images/meter-1.jpg.jpeg", title: "Digital Meter & Breaker Board", category: "Panels & Meters" },
+  { id: 8, src: "/images/piping-2.jpeg.jpeg", title: "Wall Channel Piping Installation", category: "Piping & Wiring" },
+  { id: 9, src: "/images/lighiting-4.jpeg.jpeg", title: "Architectural Recessed Lighting", category: "Lighting & Facades" },
+  { id: 10, src: "/images/meter-2.jpg.jpeg", title: "Utility Energy Meter Box", category: "Panels & Meters" },
+  { id: 11, src: "/images/wiring-1.jpeg.jpeg", title: "Control Panel Internal Wiring", category: "Piping & Wiring" },
+  { id: 12, src: "/images/lighiting-6.jpeg.jpeg", title: "Warm Ambient Living Room Lights", category: "Lighting & Facades" }
+];
+
+export const siteVideos = [
+  {
+    id: 1,
+    title: "Electrical Installation & Wiring Field Operations",
+    description: "Live video demonstration of Paul Dete performing precision conduit routing, wire termination, and panel assembly.",
+    src: "/videos/video.mp1.mp4",
+    thumbnail: "/images/piping-1.jpeg.jpeg",
+    duration: "Site Video 1"
+  },
+  {
+    id: 2,
+    title: "Meter Board & Voltage Protection Testing",
+    description: "Detailed video walkthrough testing voltage levels, circuit breaker functionality, and energy meter setup.",
+    src: "/videos/video.mp2.mp4",
+    thumbnail: "/images/meter-box-digital-protector.jpg",
+    duration: "Site Video 2"
+  }
 ];
 
 export const testimonials = [
   {
-    quote: "Paul Dete did an excellent job rewiring our house. Very professional, punctual, and reliable!",
+    quote: "Paul Dete did an excellent job rewiring our house and setting up our luxury exterior lighting. Very professional, punctual, and reliable!",
     author: "Dancan D.",
     role: "Homeowner",
     rating: 5
   },
   {
-    quote: "Efficient and highly knowledgeable electrical engineer. Highly recommended for commercial projects and power distribution setups.",
+    quote: "Efficient and highly knowledgeable electrical engineer. Upgraded our commercial meter panel and installed digital voltage protectors flawlessly.",
     author: "Fredrick Njoroge",
     role: "Facility Manager",
     rating: 5
   },
   {
-    quote: "Installed a solar inverter and backup system at my home. Everything works perfectly and safely. Great peace of mind!",
+    quote: "Installed an automatic water tank float switch and a solar inverter system at my home. Everything works automatically and safely. Great peace of mind!",
     author: "Mitchell Atieno",
     role: "Residential Client",
     rating: 5
   },
   {
-    quote: "Paul installed outdoor security lighting at our property. The quality of work was top notch and he gave extremely useful safety advice.",
+    quote: "Paul installed outdoor security and architectural facade lighting at our villa. The quality of work was top notch and he gave extremely useful safety advice.",
     author: "Ester Njeri",
     role: "Property Owner",
     rating: 5
@@ -247,29 +266,29 @@ export const testimonials = [
 export const blogPosts = [
   {
     id: 1,
-    title: "5 Critical Electrical Safety Tips Every Homeowner Must Know",
-    excerpt: "Learn how to spot early signs of electrical overload, faulty wiring, and trip risks before they lead to costly damage or safety hazards.",
+    title: "How Automatic Float Switches Protect Water Pumps & Save Electricity",
+    excerpt: "Learn how installing a water level sensor switch automated pump operations, prevents dry running, and stops wasteful water tank overflows.",
     date: "October 2026",
     readTime: "4 min read",
-    category: "Electrical Safety",
-    image: "/images/lighiting-7.jpeg.jpeg"
+    category: "Automation & Control",
+    image: "/images/water-float-switch-sensor.jpg"
   },
   {
     id: 2,
-    title: "Why Upgrading Your Electrical Breaker Panel Saves Money",
-    excerpt: "Old fuse boxes waste energy and can fail to protect modern electronics. Discover the benefits of modern MCCB/RCCB circuit breaker panels.",
+    title: "Why You Need a Digital Voltage Protector For Your Appliances",
+    excerpt: "Grid voltage surges and low-voltage brownouts can destroy sensitive equipment. Discover how digital voltage protectors safeguard your electrical investment.",
     date: "September 2026",
-    readTime: "6 min read",
-    category: "Energy Efficiency",
-    image: "/images/meter-1.jpg.jpeg"
+    readTime: "5 min read",
+    category: "Electrical Safety",
+    image: "/images/meter-box-digital-protector.jpg"
   },
   {
     id: 3,
-    title: "Transitioning to Solar Power: A Beginner’s Guide to Inverters & Storage",
-    excerpt: "Understand how hybrid solar systems combine utility grid energy with solar PV panels and lithium batteries for 24/7 reliability.",
+    title: "Architectural Exterior Lighting: Transforming Villa Facades at Night",
+    excerpt: "Explore best practices for designing IP66 weatherproof outdoor LED sconces, pillar uplighting, and automated dusk-to-dawn twilight controls.",
     date: "August 2026",
-    readTime: "5 min read",
-    category: "Solar Energy",
-    image: "/images/meter-3.jpg.jpeg"
+    readTime: "6 min read",
+    category: "Lighting Design",
+    image: "/images/luxury-villa-exterior-lighting.jpg"
   }
 ];
